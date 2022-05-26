@@ -12,7 +12,6 @@ const CounterApp = ({ value = 10 }) => {
 
   const handleRemove = () => setCounter(counter - 1);
 
-
   return (
     <>
       <h1>CounterApp</h1>
