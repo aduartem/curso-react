@@ -5,15 +5,11 @@ const GitExpertApp = () => {
 
   const [categories, setCategories] = useState(['One Punch', 'Samurai X', 'Dragon Ball']);
 
-  // const handleAdd = () => {
-  //   setCategories([...categories, 'HunterXHunter']);
-  // };
-
   return (
     <>
       <h2>GitExpertApp</h2>
 
-      <AddCategory />
+      <AddCategory setCategories={setCategories} />
 
       <hr />
       <ol>
